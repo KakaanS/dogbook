@@ -1,0 +1,97 @@
+.dogImageProfile {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.dogContainer {
+  display: flex;
+  align-items: center;
+}
+.delContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+}
+.delBtn {
+  background-color: gainsboro;
+  color: black;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  height: 100%;
+  width: 10vh;
+}
+.profileBtn {
+  background-color: gainsboro;
+  color: black;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  height: 100%;
+  width: 10vh;
+}
+.infoContainer {
+  flex: 1;
+  position: inherit;
+  padding-left: 10vh;
+}
+.bigList {
+  padding-left: 0;
+}
+.addDog {
+  background-color: gainsboro;
+  color: black;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  height: 100%;
+  width: 10vh;
+}
+.checkBtn {
+  background-color: gainsboro;
+  color: black;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  height: 100%;
+  width: 10vh;
+}
+.navBtnUsers {
+  background-color: gainsboro;
+  color: black;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  height: 100%;
+  width: 10vh;
+}
+
+.delBtn:hover,
+.delBtn:focus,
+.profileBtn:hover,
+.profileBtn:focus,
+.addDog:hover,
+.addDog:focus,
+.checkBtn:hover,
+.checkBtn:focus,
+.navBtnUsers:hover {
+  background-color: rgba(41, 82, 93, 0.2);
+  transform: scale(1.1);
+}
+.delBtn:active,
+.profileBtn:active,
+.addDog:active,
+.checkBtn:active,
+.navBtnUsers:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(0.9);
+}
+
+.checkedIn {
+  color: green;
+}
+.checkedOut {
+  color: red;
+}

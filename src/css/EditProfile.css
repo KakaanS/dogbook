@@ -1,0 +1,44 @@
+.editInput {
+  width: 90%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.editForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  align-items: initial;
+}
+.editLabel {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-right: 25px;
+}
+.editDog {
+  background-color: gainsboro;
+  color: black;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.editDog:hover,
+.editDog:focus {
+  background-color: rgba(41, 82, 93, 0.2);
+  transform: scale(1.1);
+}
+
+.editDog:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(0.9);
+}

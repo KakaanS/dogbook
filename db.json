@@ -1,0 +1,62 @@
+{
+  "dogs": [
+    {
+      "id": "lfmis80a",
+      "dogname": "Frank",
+      "nickname": "Frankenstein",
+      "age": "4",
+      "breed": "Aussie",
+      "owner": "Oscar Wendt",
+      "bio": "Eyo",
+      "friends": [
+        "lfm7alg4",
+        "lfmifldh"
+      ],
+      "image": "https://images.dog.ceo/breeds/puggle/IMG_122350.jpg",
+      "checkedIn": true
+    },
+    {
+      "id": "lfpzwngu",
+      "dogname": "Bfffen",
+      "nickname": "asdasd",
+      "age": "2",
+      "breed": "asdad",
+      "owner": "asda",
+      "bio": "asd",
+      "friends": [
+        "lfmis80a"
+      ],
+      "image": "https://images.dog.ceo/breeds/terrier-silky/n02097658_2087.jpg",
+      "checkedIn": false
+    },
+    {
+      "id": "lfqq65p2",
+      "dogname": "Test",
+      "nickname": "test",
+      "age": "2",
+      "breed": "test",
+      "owner": "test",
+      "bio": "test",
+      "friends": [
+        "lfmis80a",
+        "lfpzwngu"
+      ],
+      "image": "https://images.dog.ceo/breeds/bouvier/n02106382_4177.jpg",
+      "checkedIn": true
+    },
+    {
+      "id": "lg0jrcq3",
+      "dogname": "Simon",
+      "nickname": "simmy",
+      "age": "25",
+      "breed": "ak",
+      "owner": "Simon",
+      "bio": "Hej",
+      "friends": [
+        "lfmis80a"
+      ],
+      "image": "https://images.dog.ceo/breeds/terrier-tibetan/n02097474_393.jpg",
+      "checkedIn": false
+    }
+  ]
+}
